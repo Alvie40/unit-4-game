@@ -1,0 +1,124 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+.playerCard{
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    font-size: small;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.enemyCard{
+    height: fit-content;
+    width: fit-content;
+    background-color: red;
+    font-size: small;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.defenderCard{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    font-size: small;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 1em;
+    font-weight: bold;
+}
+
+#selectionRow,#enemyRow,#defenderRow{
+    display: inline-flex;
+    height: 200px;
+}
+
+#cardImage{
+    height: 90px;
+    width: 90px;
+}
+
+.fade{
+    opacity: 30%;
+}
+
+.loader{
+    position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2147483647;
+}
+h1{
+    font-family: 'ITC Serif Gothic';
+    /* font-weight: bold; */
+    font-size: 3.5em;
+    /* background: rgba(255, 255, 255, 0.5); */
+    color: aliceblue;
+    width: fit-content;
+    padding: 0.5em;
+}
+.item-a {
+    grid-area: header;
+  }
+  .item-b {
+    grid-area: main;
+  }
+  .item-c {
+    grid-area: sidebar;
+  }
+  .item-d {
+    grid-area: footer;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+  }
+
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}

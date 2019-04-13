@@ -1,0 +1,22 @@
+{
+  "name": "unit-4-game",
+  "version": "1.0.0",
+  "description": "Star Wars Javascript Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvie40/unit-4-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvie40/unit-4-game/issues"
+  },
+  "homepage": "https://github.com/Alvie40/unit-4-game#readme",
+  "dependencies": {
+    "modal-video": "^2.4.2"
+  }
+}
